@@ -23,6 +23,18 @@ app.get("/contact",function(req,res){
   res.render("contact");
 });
 
+app.get("/team",function(req,res){
+  res.render("team");
+});
+
+app.get("/feature",function(req,res){
+  res.render("feature");
+});
+
+app.get("/service",function(req,res){
+  res.render("service");
+});
+
 
 
 app.listen(process.env.PORT || 3000, function() {
