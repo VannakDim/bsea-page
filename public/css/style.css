@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00B98E;
+    --primary: #00adf1;
     --light: #F3F6F8;
-    --dark: #0E2E50;
+    --dark: #00adf1;
 }
 
 
@@ -217,7 +217,7 @@
 .hero-header {
     margin-bottom: 6rem;
     padding: 12rem 0 9rem 0;
-    background: url(../img/shape-bottom.png) center bottom no-repeat;
+    background: url(../img/shape-bottom2.png) center bottom no-repeat;
 }
 
 .page-header {
@@ -445,6 +445,7 @@
     margin-bottom: 10px;
     border-radius: 50%;
 }
+
 .kh{
     font-family: 'Koulen', cursive;
     font-size: 1.7em;
@@ -454,4 +455,7 @@
 }
 .en{
     font-size: 1.5em;
+}
+.hero-header{
+    margin-bottom: 0;
 }
