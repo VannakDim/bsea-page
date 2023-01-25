@@ -463,6 +463,16 @@
     padding-left: 5px;
 }
 
-p{
+.container{
+    font-family: "Khmer Os Battambang";
     line-height: 2rem;
+}
+
+@font-face {
+    font-family: "Khmer Os Battambang";
+    src:url("/fonts/KhmerOSbattambang.ttf");
+}
+
+.h-about{
+    padding-top: 2rem;
 }
