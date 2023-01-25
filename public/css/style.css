@@ -462,3 +462,7 @@
 .brand-title{
     padding-left: 5px;
 }
+
+p{
+    line-height: 2rem;
+}
