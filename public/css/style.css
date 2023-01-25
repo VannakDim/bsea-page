@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00adf1;
+    --primary: #3d85a1;
     --light: #F3F6F8;
     --dark: #00adf1;
 }
@@ -34,7 +34,7 @@
 }
 
 .py-6 {
-    padding-top: 6rem;
+    padding-top: 1rem;
     padding-bottom: 6rem;
 }
 
@@ -222,7 +222,7 @@
 
 .page-header {
     margin-bottom: 6rem;
-    padding: 6rem 0 3rem 0;
+    padding: 6rem 0 0rem 0;
 }
 
 @media (max-width: 991.98px) {

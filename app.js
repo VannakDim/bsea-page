@@ -34,6 +34,10 @@ app.get("/feature",function(req,res){
 app.get("/service",function(req,res){
   res.render("service");
 });
+app.get("/error",function(req,res){
+  res.render("error");
+});
+
 
 
 
