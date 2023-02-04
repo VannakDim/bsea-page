@@ -2,7 +2,8 @@
 :root {
     --primary: #3d85a1;
     --light: #F3F6F8;
-    --dark: #00adf1;
+    --dark: #00B98E;
+    /* --dark: #00adf1; */
 }
 
 
@@ -475,4 +476,37 @@
 
 .h-about{
     padding-top: 2rem;
+}
+
+
+
+.dropdown-menu a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+} 
+
+a.lang-en:before {
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/us.svg);
+}
+a.lang-kh:before {
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/kh.svg);
+}
+a.lang-cn:before {
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/cn.svg);
+}
+
+.lang.change-kh:before {
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/kh.svg);
+}
+.lang.change-en:before {
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/en.svg);
+}
+.lang.change-cn:before {
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/cn.svg);
 }
